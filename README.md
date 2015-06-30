@@ -5,8 +5,8 @@ Collaboration with Hoodie and Rails Girls Summer of Code to create a web applica
 ##### Technologies
 
 * [Node](https://nodejs.org/)
-* Hoodie(https://hood.ie/)
-* Electron(http://electron.atom.io/)
+* [Hoodie](https://hood.ie/)
+* [Electron](http://electron.atom.io/)
 
 ##### Main Programming Language
 
