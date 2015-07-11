@@ -1,0 +1,15 @@
+{
+  "name": "FOO_APP",
+  "version": "1.0.0",
+  "description": "This is a test for express web framework on top of node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MoiMoiGirls",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1"
+  }
+}

@@ -1,2 +1,3 @@
 # we ingore files here that we don't wanna push to git
 *.log
+node_modules
