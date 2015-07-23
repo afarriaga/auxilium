@@ -2,11 +2,13 @@ var express = require('express');
 var body_parser = require('body-parser');
 var app = express();
 
+// We let express know that it should use the
+// body parser as a middleware module
 app.use(body_parser.urlencoded({ extended: true }));
 
 // A browser's default method is 'GET', so this
 // is the route that express uses when we visit
-// our site initially.
+// our site initially
 app.get('/', function(req, res){
   // The form's action is '/' and its method is 'POST',
   // so the `app.post('/', ...` route will receive the

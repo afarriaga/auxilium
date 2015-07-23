@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 // NOT FORM THE GENERATOR -------------------------
-// this is requiering foo.js ans
-// assigning to variable foo
+// The next line requires foo.js and
+// assignings that to variable foo
 var foo = require('./routes/foo');
 //-------------------------------------------------
 var users = require('./routes/users');
@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 // NOT FORM THE GENERATOR -------------------------
 // here we say to express to use the
-// foo module when user navigates to
+// foo module when client navigates to
 // /foo route (location)
 app.use('/foo', foo);
 // -----------------------------------------------
