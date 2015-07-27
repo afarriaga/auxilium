@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jquery test</title>
+    <!-- styles may be added before the scirpts -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- add your JS dependencies right after styles -->
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+    <!-- add your script after jquery or other dependencies -->
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+  <!--  The importat thing when writing markup (html)
+        is to use descriptive language for classes and id
+        IDs are unique and CLASSES are not, so that helps you
+        understand when it is good to have an id.
+
+        For example, IDs are good for header, footer, menu, content
+        Those are unique areas in the layout.
+
+        Then you are attaching js functionality, it is a good practice to use
+        an indicator, like "js" for those classes.
+
+        Modularity and decoupling is important for maintainability
+        and for development enjoyment.
+   -->
+  <h1 class="even_bigger_text">Dialog</h1>
+  <button id="start_button" class="big_button">Start</button>
+
+  <h1 class="js_show_this hidden">Hello world!</h1>
+  <p class="js_show_this_and_make_big hidden">I am good thank you, and you?</p>
+  <p class="js_write_into_here big_text"></p>
+
+  <button id="close_button" class="big_button hidden">Close</button>
+
+  </body>
+</html>

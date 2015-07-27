@@ -1,0 +1,46 @@
+/*
+* When thinkig about CSS and preformance
+* it is important to consider that
+*
+* ID selectors use the "#" pefeix and will always be faster,
+* however, it comes with a price...
+* IDs are unique thus you would need end up with repetition.
+*
+* Following the DRY (Don't Repeat Yourself) priciple
+* is always a good idea and will save you from wtiting
+* the same code over and over.
+*
+* CLASS selector use the "." and are usually perfered to describe
+* styles for generic things, or none unique. Classes will
+* keep your code DRYer. Use semantic and descriptive class names.
+*
+* TAGs have no particular prefix, they are slower.
+* Use tags to append a particular style to all elements
+*
+* Read more about CSS online:
+* http://islovely.co/posts/writing-high-performance-css/
+* http://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+*
+*/
+
+.big_text {
+  font-size: 22px;
+}
+
+.even_bigger_text {
+  font-size: 50px;
+}
+
+.big_button {
+  font-size: 22px;
+  width: 200px;
+  height: 50px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
