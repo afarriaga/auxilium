@@ -1,0 +1,28 @@
+/* Delete this styles, you won't need them is just an example */
+.delete-me {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: green;
+  padding-top: 30%;
+  font-size: 3em;
+}
+
+/* Modify the style rules below and reload the browser, have fun with it! */
+/* h1 maps to a the h1 tag */
+h1 {
+    font-size: 30px;
+    color: #E0330C;
+}
+
+
+/* using the . we map to a class in the html file */
+.profile-picture {
+    float: right;
+    border: 1px solid #E0330C;
+}
+
+/* Put your own custom styles below */
