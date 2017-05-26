@@ -17,7 +17,7 @@ gem install bundler
 
 - Clone the repository
 - Navigate to the project folder `cd web-intro-starter`
-- checkout the branch `git checkout web-intro-starter`
+- Checkout the branch `git checkout web-intro-starter`
 - Rund the bundler by typing `bundle instal`
 - Run the test by typing `ruby test.rb`
 
