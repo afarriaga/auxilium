@@ -1,0 +1,6 @@
+/log/*
+!/log/.keep
+/tmp
+/*.db
+/*.db-journal
+.DS_Store
