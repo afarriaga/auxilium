@@ -9,16 +9,25 @@ Good luck!
 
 ### Detailed instructions
 
-To run this you need to install bundler
+Install the software listed at http://web-intro.luontola.fi/install/ up to point # 4.
+Install git https://git-scm.com/downloads
+
+Then you need to install the bundler gem. Just run the following command:
 
 ```bash
 gem install bundler
 ```
 
-- Clone the repository
+Learn more about bundler at https://bundler.io/#getting-started
+
+Now just follow the steps below:
+
+- Clone the repository:
+    ```bash
+    git clone -b web-intro-starter https://github.com/afarriaga/auxilium.git
+    ```
 - Navigate to the project folder `cd web-intro-starter`
-- Checkout the branch `git checkout web-intro-starter`
-- Rund the bundler by typing `bundle instal`
+- Run the bundler by typing `bundle install`
 - Run the test by typing `ruby test.rb`
 
 The app directory _MyAwesomeSite_ contains static HTML files that you can open in your browser by double-clicking on them. It also contains the application server.
@@ -28,7 +37,9 @@ The server can serve static files from the _public_ folder and dynamic views fro
 - Navigate to the app directory `cd MyAwesomeSite`
 - Run the app by typing `ruby app.rb`
 
-The app runs on this url: http://localhost:4567/
+The app runs on this url: http://localhost:4567
+
+Now you are ready to get started with the first part of the tutorial: http://web-intro.luontola.fi/html/
 
 ### Introduction to Making Web Applications tutorial credits
 
