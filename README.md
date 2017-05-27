@@ -3,7 +3,7 @@
 This is a project structure that can be used to get started with the introduction to web
 applications tutorial by Esko Luontola. More details below.
 
-Download this as a zip or clone the repo and check out this branch.
+Download this as a zip if you don't want to use `git` or don't have it installed.
 
 Good luck!
 
@@ -23,9 +23,9 @@ Learn more about bundler at https://bundler.io/#getting-started
 
 Now just follow the steps below:
 
-- Clone the repository:
+- Go to your Doucments folder and clone the repository:
     ```bash
-    git clone -b web-intro-starter https://github.com/afarriaga/auxilium.git
+    git clone -b web-intro-starter https://github.com/afarriaga/auxilium.git web-intro-starter
     ```
 - Navigate to the project folder `cd web-intro-starter`
 - Run the bundler by typing `bundle install`
