@@ -11,7 +11,7 @@ Good luck!
 
 Install the software listed at http://web-intro.luontola.fi/install/ up to point # 4.
 
-Install git https://git-scm.com/downloads
+Install [Git](https://git-scm.com/downloads) or download the [zip](https://github.com/afarriaga/auxilium/archive/web-intro-starter.zip).
 
 Then you need to install the bundler gem. Just run the following command:
 
@@ -21,7 +21,7 @@ gem install bundler
 
 Learn more about bundler at https://bundler.io/#getting-started
 
-Now just follow the steps below:
+Now, follow the steps below:
 
 - Go to your Doucments folder and clone the repository:
     ```bash
@@ -40,7 +40,7 @@ The server can serve static files from the _public_ folder and dynamic views fro
 
 The app runs on this url: http://localhost:4567
 
-Now you are ready to get started with the first part of the tutorial: http://web-intro.luontola.fi/html/
+That's all, you are now ready to get started with the first part of the [tutorial](http://web-intro.luontola.fi/html/).
 
 If you think someone might find this useful spread the word using this link http://bit.ly/web-intro-starter :]
 
